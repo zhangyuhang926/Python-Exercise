@@ -26,3 +26,11 @@ class StackWithTwoQueues(object):
     def getStack(self):
         print('_stack1', self._stack1)
         print('_stack2', self._stack2)
+
+s = StackWithTwoQueues()
+s.push(2)
+s.push(3)
+s.push(5)
+s.getStack()
+s.pop()
+s.getStack()
